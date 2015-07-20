@@ -1,0 +1,150 @@
+body{
+ font-family: "微软雅黑";
+ height: 100%
+}
+/*遮罩层*/
+.mask-layer {
+	position: absolute;
+	display: none;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 200%;
+	background: #000;
+	background: rgba(0,0,0,0.6);
+}
+.publish{
+	font-size: 14px;
+	background: #fff;
+	color: #676060;
+	margin: 100px 300px;
+	width: 742px;
+	height: 262px;
+}
+.publish a{
+	text-decoration: none;
+    color: #676060;
+	margin: 17px;
+}
+.publish img{
+	margin-bottom: -10px;
+}
+.selector {
+
+}
+.selector li{
+	list-style: none;
+	float: left;
+	padding: 25px 36px 0 0;
+	cursor: pointer;
+}
+.selected{color:#30B1F4;}
+/*作业部分*/
+.publish-work {
+	padding: 5px 5px;
+}
+.publish-work  .work-name{
+  background: rgba(249, 249, 249, 0.41);
+  border: 1px solid rgb(239, 235, 235);
+  margin: 19px 20px 10px 20px;
+  text-indent: 13px;
+  width: 685px;
+  height: 36px;
+  line-height: 36px;
+}
+.publish-work .work-content{
+	background: rgba(249, 249, 249, 0.41);
+	border: 1px solid rgb(239, 235, 235);
+    margin: 0px 20px 26px 20px;
+    text-indent: 13px;
+	width: 685px;
+	height: 60px;
+}
+/*通知部分*//*讨论部分*/
+.publish-inform{display: none;}
+.publish-discuss{display: none;}
+.inform-content,.discuss-content{
+	background: rgba(249, 249, 249, 0.41);
+	border: 1px solid rgb(239, 235, 235);
+    margin: 19px 20px 26px 20px;
+    padding: 5px 5px;
+    text-indent: 13px;
+	height: 113px;
+	width: 685px;
+
+
+}
+.publish select{
+	border: 1px solid rgb(239, 235, 235);
+	border-radius: 3px;
+	height: 30px;
+}
+/*.publish*/ button{
+	width: 73px;
+	height: 25px;
+	border:0px;
+	color:#fff;
+	border-radius: 3px;
+	background: #30B1F4;
+	float: right;
+	margin-right: 25px;
+
+}
+/*控制显示按钮*/
+.button{
+	margin:20% 44%;
+	width: 100px;
+	height: 35px;
+	float: inherit;
+}
+/*图片部分*/
+#pictures,#files{
+		font-size: 14px;
+	    background: #fff;
+	    color: #676060;
+	    width:330px;
+	    /*height: 200px;*/
+	    border-radius: 5px;
+	    display: none;
+	    margin: 24px 29px;
+	    position: relative;
+	    /*clear: both;*/
+	    min-height:200px;
+
+}
+#pictures p,#files p{
+	height: 27px;
+	line-height: 35px;
+}
+#pictures img,#files img{
+	  /*background: rgba(0,0,0,.4);*/
+}
+#pictures img.remove-pic,#files img.remove-file{
+	float: right;
+	margin:0;
+	cursor: pointer;
+}
+hr{opacity: .4}
+.file,.file1,.file2,.file3,.file4,.file5{
+	float:left;
+	margin: -58px 7px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	opacity:0;
+}
+.plus,.plus1,.plus2,.plus3,.plus4,.plus5{opacity: .4}
+.upload-pictures{
+	/*background: url(images/add24.png);*/
+	border: 2px dashed rgba(224, 218, 218, 0.87);
+	width:90px;
+	height: 90px;
+	float: left;
+	margin-right: 15px;
+	text-align: center;
+    line-height: 79px;
+    /*opacity: .4;*/
+  
+}
+

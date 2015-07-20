@@ -1,0 +1,19 @@
+.b_main{position:absolute} 
+.out{ 
+position:absolute; 
+top: -17px;
+left: 52px;
+border-color:transparent transparent  #999999  transparent; 
+border-style:dashed  solid dashed  dashed; 
+border-width:8px; 
+} 
+.in{ 
+position:absolute; 
+border-color:transparent transparent  #ffffff transparent; 
+border-style:dashed  solid dashed  dashed; 
+border-width:8px; 
+top:-7px; 
+left:-8px; 
+} 
+
+ 
